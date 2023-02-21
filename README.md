@@ -3,11 +3,11 @@
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) for easily exporting your WebReg schedule to a calendar.
 - Adds your classes as recurring events
 - Adds your finals as one time events
-- *Uses [ics.js](https://github.com/nwcell/ics.js/) for .ics generation*
+- Usage instructions below!
 
 ![Command line screenshot](assets/screenshot-cropped-v1.png)
 
-## 📋 Instructions
+## 📋 Instructions (for desktop)
 1. Copy the entire code blurb below & add it as a new bookmark: `Ctrl+D` or `⌘+D`, click "More...", then paste the blurb in as the URL  
 ```js
 javascript:(function(){const calendarize=document.createElement('script');calendarize.src='https://adoryvo.github.io/calendarize-webreg/calendarize.min.js';document.body.appendChild(calendarize);})()
@@ -18,5 +18,5 @@ javascript:(function(){const calendarize=document.createElement('script');calend
 4. Double check that the calendar events created match the times on WebReg!
 
 ---
-*[Source code](https://github.com/AdoryVo/calendarize-webreg/tree/v1.0.0)*  
+*[Source code](https://github.com/AdoryVo/calendarize-webreg) | Uses [ics.js](https://github.com/nwcell/ics.js/) for .ics generation*  
 *Created by [Adory Vo](https://github.com/AdoryVo)*
