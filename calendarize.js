@@ -127,6 +127,11 @@ for (const courseTitle in courseEvents) {
     const eventTitle = `${courseTitle} - ${eventType}`
     const { days, location, time } = events[eventType]
 
+    // Time is TBA - cannot create event
+    if (time === 'TBA') {
+      continue
+    }
+
     // Get start / finish times
     const firstDay = daysToArray(days, { asNums: true })[0]
     const startDate = (eventType !== 'FI') ? toDayInWeek(new Date(finalDate) - MS_PER_10_WEEKS, firstDay) : finalDate
