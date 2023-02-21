@@ -1,10 +1,10 @@
 # 📆 calendarize-webreg
 
-A bookmarklet for easily exporting your WebReg schedule to a calendar.  
+A bookmarklet for easily exporting your WebReg schedule to a calendar.
 - Adds your sections as recurring events
 - Adds your finals as one time events
 
-![Command line screenshot](assets/screenshot-v1.png)
+![Command line screenshot](assets/screenshot-cropped-v1.png)
 
 ## 📋 Instructions
 1. Copy & paste the blurb below as a URL into your bookmark bar (any name works)

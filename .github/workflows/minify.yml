@@ -3,6 +3,7 @@ run-name: Minify calendarize.js for optimization 🚀
 on: [push]
 jobs:
   Minify-Calendarize-Script:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
