@@ -1,0 +1,15 @@
+name: Minify Calendarize Script
+run-name: Minify calendarize.js for optimization 🚀
+on: [push]
+jobs:
+  Minify-Calendarize-Script:
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Auto Minify
+        uses: nizarmah/auto-minify@v2.1
+
+      - name: Committing minified files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "GitHub Action: Minify & add calendarize.min.js"
