@@ -1,6 +1,9 @@
 name: Minify Calendarize Script
 run-name: Minify calendarize.js for optimization 🚀
-on: [push]
+on:
+  push:
+    paths:
+      - 'calendarize.js'
 jobs:
   Minify-Calendarize-Script:
     runs-on: ubuntu-latest
