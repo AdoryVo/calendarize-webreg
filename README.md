@@ -1,7 +1,7 @@
 # 📆 calendarize-webreg
 
-A bookmarklet for easily exporting your WebReg schedule to a calendar.
-- Adds your sections as recurring events
+A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) for easily exporting your WebReg schedule to a calendar.
+- Adds your classes as recurring events
 - Adds your finals as one time events
 - *Uses [ics.js](https://github.com/nwcell/ics.js/) for .ics generation*
 
@@ -15,7 +15,8 @@ javascript:(function(){const calendarize=document.createElement('script');calend
 2. Visit your WebReg page & click the bookmark to download your schedule as a calendar file (.ics)  
 	(`Ctrl/⌘+Shift+B` to toggle bookmarks bar)
 3. Import the calendar file into your Google Calendar [here](https://calendar.google.com/calendar/u/0/r/settings/export)
-4. Double check that the events created for your sections & finals match the times on WebReg!
+4. Double check that the calendar events created match the times on WebReg!
 
 ---
+*[Source code](https://github.com/AdoryVo/calendarize-webreg/tree/v1.0.0)*  
 *Created by [Adory Vo](https://github.com/AdoryVo)*
