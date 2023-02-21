@@ -117,7 +117,6 @@ for (const courseTitle in courseRows) {
 }
 
 // Create calendar file (.ics)
-// eslint-disable-next-line no-undef
 var cal = ics()
 for (const courseTitle in courseEvents) {
   const events = courseEvents[courseTitle]
@@ -127,8 +126,8 @@ for (const courseTitle in courseEvents) {
     const eventTitle = `${courseTitle} - ${eventType}`
     const { days, location, time } = events[eventType]
 
-    // Time is TBA - cannot create event
-    if (time === 'TBA') {
+    // Days or time is TBA - cannot create event
+    if (days === 'TBA' || time === 'TBA') {
       continue
     }
 
