@@ -3,6 +3,7 @@
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) for easily exporting your WebReg schedule to a calendar.
 - Adds your classes as recurring events
 - Adds your finals as one time events
+- Importable into calendar apps like Google Calendar, Outlook, etc. 
 - Usage instructions below!
 
 ![Command line screenshot](assets/screenshot-cropped-v1.png)
@@ -16,6 +17,12 @@ javascript:(function(){const calendarize=document.createElement('script');calend
 	(`Ctrl/⌘+Shift+B` to toggle bookmarks bar)
 3. Import the calendar file into your Google Calendar [here](https://calendar.google.com/calendar/u/0/r/settings/export)
 4. Double check that the calendar events created match the times on WebReg!
+
+## ⭐ See also
+- UCSD Rocket Dev Team's web-based [WebReg Export App](https://www.webreg-export.com/), which uses OCR image scanning to parse your WebReg schedule
+- OTApps' [Chrome Extension tool](https://chrome.google.com/webstore/detail/ucsd-schedule-to-calendar/haafakimhdpglinagaadlgebflifeiho?hl=en-US)
+- Isaiah Dailey's command line tool, [Schtoics](https://github.com/isaiahtx/Schtoics)
+- [Feedback & Bug Report Form](https://forms.gle/nv2LUzE4SQ3fQVmX7)
 
 ---
 *[Source code](https://github.com/AdoryVo/calendarize-webreg) | Uses [ics.js](https://github.com/nwcell/ics.js/) for .ics generation*  
