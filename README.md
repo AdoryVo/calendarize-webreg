@@ -1,7 +1,8 @@
-A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) for easily exporting your WebReg schedule to a calendar (pictured below).
+A tool for easily exporting your WebReg schedule to your calendars (pictured below).
 - Adds your classes as recurring events
 - Adds your finals as one time events
-- Importable into calendar apps like Google Calendar, Outlook, etc. 
+- Importable into calendar apps like Google Calendar, Outlook, etc.
+- Tested on UCSD WebReg schedules
 - Usage instructions below!
 
 ![Command line screenshot](assets/screenshot-cropped-v1.png)
