@@ -7,7 +7,21 @@ A tool for easily exporting your WebReg schedule to your calendars (pictured bel
 
 ![Command line screenshot](assets/screenshot-cropped-v1.png)
 
-## 📋 Instructions (for desktop)
+## 📋 Installations
+
+### Extension: Chrome, MS Edge or Brave
+
+1. There're 2 ways to download the extension:
+   (a) Download a hard copy of the zip file from the [Release page](https://github.com/AdoryVo/calendarize-webreg/releases)
+   (b) Clone this repo
+2. Unzip the folder
+3. Enable Developer Mode on your browser
+4. Select "Load Unpacked" and choose the unzipped folder `calendarize-webreg-chrome-extension`
+5. Head to your WebReg page, click on the extension. Voilà, your schedule is downloaded!
+
+> ⭐️ Make sure you keep the extension folder in a permanent, safe place. Aka don't delete or move the folder after loading it
+
+### Bookmarklet
 1. Copy the entire code blurb below & add it as a new bookmark: `Ctrl+D` or `⌘+D`, click "More...", then paste the blurb in as the URL
 > ```javascript:(function(){const calendarize=document.createElement('script');calendarize.src='https://adoryvo.github.io/calendarize-webreg/calendarize.min.js';document.body.appendChild(calendarize);})()```
 2. Visit your WebReg page & click the bookmark to download your schedule as a calendar file (.ics)  
