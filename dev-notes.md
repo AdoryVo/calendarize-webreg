@@ -2,13 +2,13 @@
 
 ## To-do
 
-- GitHub Workflows
-  - Zip the chrome extension and put it into the root directory
-  - Upon pushing to `calendarize.js`, minify it and copy it to `chrome-extension`
-- Test extension in development (WebReg access / local WebReg page html file needed)
-- Publish extension to Chrome Web Store
-- Proofread & update README.md
-- Extra: Establish basic linting / formatting environment w/ ESLint & Prettier
+- [ ] GitHub Workflows
+  - [ ] Zip the chrome extension and put it into the root directory
+  - [ ] Upon pushing to `calendarize.js`, minify it and copy it to `chrome-extension`
+- [x] Test extension in development (WebReg access / local WebReg page html file needed)
+- [ ] Publish extension to Chrome Web Store
+- [ ] Proofread & update README.md
+- [x] Extra: Establish basic linting / formatting environment w/ ESLint & Prettier
 
 ## Resources used
 
