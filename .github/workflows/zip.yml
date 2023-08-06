@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Zip Chrome Extension
-        run: zip -q -r calendarize-webreg-chrome.zip chrome-extension
+        run: (cd chrome-extension && zip -FSr ../calendarize-webreg-chrome.zip *)
 
       - name: Committing zip file
         uses: stefanzweifel/git-auto-commit-action@v4
