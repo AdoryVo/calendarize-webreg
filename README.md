@@ -64,7 +64,7 @@ javascript: (function () {
 
 ## 🔒 Privacy
 
-If you have any concerns about privacy, the program does not collect or store any of your information (you may verify this with the [source code](https://github.com/AdoryVo/calendarize-webreg)).
+If you have any concerns about privacy, the program does not collect or store any of your information (you may verify this with the [source code](https://github.com/AdoryVo/calendarize-webreg/blob/main/calendarize.js)).
 
 ## ⭐ See also
 
@@ -76,4 +76,4 @@ If you have any concerns about privacy, the program does not collect or store an
 ---
 
 _[Source code](https://github.com/AdoryVo/calendarize-webreg) | Uses [ics.js](https://github.com/nwcell/ics.js/) for .ics generation_  
-_Created by [Adory Vo](https://github.com/AdoryVo)_
+_Created by [Adory Vo](https://github.com/AdoryVo) with contributions from [Rebecca Chen](https://github.com/chenyenru)_
