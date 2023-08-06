@@ -15,6 +15,9 @@ jobs:
         with:
           maxdepth: 0 # Only minify the root directory (where calendarize.js is)
 
+      - name: Copy script to extension
+        run: cp calendarize.min.js chrome-extension/calendarize.min.js
+
       - name: Committing minified files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
