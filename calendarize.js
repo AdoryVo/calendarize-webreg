@@ -95,7 +95,7 @@ tableRows.forEach((row, index) => {
 courseRows[prevCourseTitle] = currentCourse
 
 // Compile course details from rows
-var courseEvents = {}
+var courseEvents = {} // Events represent events on the calendar
 for (const courseTitle in courseRows) {
   const events = {}
 
