@@ -1,16 +1,8 @@
-# Chrome Extension
+# 📝 Developer Notes
 
-## To-do
+## Chrome Extension
 
-- [x] GitHub Workflows
-  - [x] Upon pushing to `chrome-extension`, zip and put it into the root directory as `calendarize-webreg-chrome.zip`
-  - [x] Upon pushing to `calendarize.js`, minify it and copy it to `chrome-extension`
-- [x] Test extension in development (WebReg access / local WebReg page html file needed)
-- [ ] (Pending!) Publish extension to Chrome Web Store
-- [ ] Proofread & update README.md
-- [x] Extra: Establish basic linting / formatting environment w/ ESLint & Prettier
-
-## Resources used
+### Resources used
 
 - [Icon](https://lucide.dev/icons/calendar-plus)
 - Chrome Extension docs
