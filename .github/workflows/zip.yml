@@ -1,0 +1,22 @@
+name: Zip Chrome Extension
+run-name: Zip chrome-extension for publishing and manual loading 📁
+on:
+  workflow_run:
+    workflows: ['Minify Calendarize Script']
+    types: [completed]
+  push:
+    paths:
+      - 'chrome-extension/**'
+jobs:
+  Zip-Chrome-Extension:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Zip Chrome Extension
+        run: (cd chrome-extension && zip -FSr ../calendarize-webreg-chrome.zip *)
+
+      - name: Committing zip file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'GitHub Action: Zip & add calendarize-webreg-chrome.zip'
