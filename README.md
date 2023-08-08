@@ -35,9 +35,9 @@ Highlights:
   6. Click `Load Unpacked` and choose your unzipped folder from earlier
      > ⭐️ Make sure you keep the extension folder in a permanent, safe place (don't delete or move the folder after loading it)
 
-1. Head to your WebReg page and click on the extension (you may have to dropdown the extensions menu 🧩). Voilà, your schedule is downloaded! 🎉
-2. Import the calendar file into your Google Calendar [here](https://calendar.google.com/calendar/u/0/r/settings/export). _Make sure to check your intended Google Account in the top right!_
-3. Double-check that the calendar events created match the times on WebReg!
+2. Head to your WebReg page and click on the extension (you may have to dropdown the extensions menu 🧩). Voilà, your schedule is downloaded! 🎉
+3. Import the calendar file into your Google Calendar [here](https://calendar.google.com/calendar/u/0/r/settings/export). _Make sure to check your intended Google Account in the top right!_
+4. Double-check that the calendar events created match the times on WebReg!
    - If there are any inconsistencies or errors, fill out the [feedback form](https://forms.gle/nv2LUzE4SQ3fQVmX7). I will try to address them ASAP!
 
 ## 🤔 How does it work?
