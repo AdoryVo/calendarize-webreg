@@ -39,6 +39,10 @@ Highlights:
 3. Import the calendar file into your Google Calendar [here](https://calendar.google.com/calendar/u/0/r/settings/export). _Make sure to check your intended Google Account in the top right!_
 4. Double-check that the calendar events created match the times on WebReg!
    - If there are any inconsistencies or errors, fill out the [feedback form](https://forms.gle/nv2LUzE4SQ3fQVmX7). I will try to address them ASAP!
+  
+### Notes on Being in Different Timezones
+
+If you're not in the Pacific Time (PT) Timezone, please change the timezone of your calendar to it before importing the iCal events.
 
 ## 🤔 How does it work?
 
