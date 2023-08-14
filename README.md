@@ -39,10 +39,15 @@ Highlights:
 3. Import the calendar file into your Google Calendar [here](https://calendar.google.com/calendar/u/0/r/settings/export). _Make sure to check your intended Google Account in the top right!_
 4. Double-check that the calendar events created match the times on WebReg!
    - If there are any inconsistencies or errors, fill out the [feedback form](https://forms.gle/nv2LUzE4SQ3fQVmX7). I will try to address them ASAP!
-  
-### Notes on Being in Different Timezones
 
-If you're not in the Pacific Time (PT) Timezone, please change the timezone of your calendar to it before importing the iCal events.
+### Notes on being in different time zones
+
+If you're not located in the same time zone as your school, change the time zone of your calendar to match before importing your calendar file. After importing, you can change your time zone back to your own and the events will shift to your time zone accordingly.
+
+For Google Calendar, this can be done in Settings > General > Time zone.  
+Otherwise, [here](https://support.apple.com/guide/calendar/use-different-time-zones-icl1035/mac#:~:text=Switch%20your%20calendar's%20time%20zone) are steps for Apple Calendar and
+[here](https://www.wikihow.com/Change-the-Time-Zone-in-Outlook) are steps for Outlook.  
+For UCSD students, the time zone should be (GMT-07:00) Pacific Time - Los Angeles.
 
 ## 🤔 How does it work?
 
