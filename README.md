@@ -56,20 +56,21 @@ When you click the bookmark or extension, your browser runs a script (AKA a prog
 This type of script is called a [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet), an obscure technology that I found fitting to add accessibility for most browsers.
 You may take a look at some other cool bookmarklets [here](https://caiorss.github.io/bookmarklets).
 
-> ⭐️ Update: To further improve accessibility for browsers not supporting bookmarklets, we are introducing a browser extension option.
+⭐️ Update: To further improve accessibility for browsers not supporting bookmarklets, a browser extension option has been added!
 
+<!-- prettier-ignore-start -->
 ```js
 // This code will be executed upon clicking the bookmark
-javascript: (function () {
+javascript:(function () {
   // Fetch the script used to scrape & parse schedule information from the web page
   const calendarize = document.createElement('script')
-  calendarize.src =
-    'https://adoryvo.github.io/calendarize-webreg/calendarize.min.js'
+  calendarize.src ='https://adoryvo.github.io/calendarize-webreg/calendarize.min.js'
 
   // Add the script to the current page, causing it to run!
   document.body.appendChild(calendarize)
 })()
 ```
+<!-- prettier-ignore-end -->
 
 > The bookmark code blurb, formatted
 
