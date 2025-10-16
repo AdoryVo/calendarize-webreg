@@ -12,6 +12,8 @@ var ics=function(e, t){'use strict';{if(!(navigator.userAgent.indexOf('MSIE')>-1
 /* End: Dependencies */
 
 /* Begin: Utilities */
+var EVENT_LINE_SEPARATOR =
+  navigator.appVersion.indexOf('Win') !== -1 ? '\r\n' : '\n'
 var DAY_MAP = {
   0: 'SU',
   M: 'MO',
@@ -121,6 +123,11 @@ for (const courseTitle in courseRows) {
 var cal = ics()
 for (const courseTitle in courseEvents) {
   const events = courseEvents[courseTitle]
+  // FI is TBA - cannot create event
+  if (!events.hasOwnProperty('FI')) {
+    continue
+  }
+
   const finalDate = events['FI'].days.split(' ')[1] // Ex: Splitting "W 12/07/2022"
 
   for (const eventType in events) {
@@ -158,6 +165,16 @@ for (const courseTitle in courseEvents) {
     }
   }
 }
+
+// Remove events starting with UID for Google Calendar compatibility
+var newEvents = cal.events().map((eventLines) =>
+  eventLines
+    .split(EVENT_LINE_SEPARATOR)
+    .filter((eventLine) => !eventLine.startsWith('UID'))
+    .join(EVENT_LINE_SEPARATOR)
+)
+cal.events().splice(0, cal.events().length)
+cal.events().splice(0, 0, ...newEvents)
 
 cal.download('Course Calendar')
 /* End: Calendarize */
