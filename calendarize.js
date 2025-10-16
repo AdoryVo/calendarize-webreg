@@ -123,7 +123,7 @@ for (const courseTitle in courseRows) {
 var cal = ics()
 for (const courseTitle in courseEvents) {
   const events = courseEvents[courseTitle]
-  // FI is TBA - cannot create event
+  // No final information (TBA) - cannot create event
   if (!events.hasOwnProperty('FI')) {
     continue
   }
