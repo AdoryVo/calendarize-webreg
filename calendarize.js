@@ -166,7 +166,7 @@ for (const courseTitle in courseEvents) {
   }
 }
 
-// Remove events starting with UID for Google Calendar compatibility
+// Remove event lines starting with UID for Google Calendar compatibility
 var newEvents = cal.events().map((eventLines) =>
   eventLines
     .split(EVENT_LINE_SEPARATOR)
