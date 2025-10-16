@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Calendarize WebReg",
   "description": "Export your WebReg schedule to your calendars in one click.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "action": {
     "default_title": "Calendarize WebReg",
     "default_icon": "images/icon-128.png"
