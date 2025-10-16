@@ -167,14 +167,14 @@ for (const courseTitle in courseEvents) {
 }
 
 // Remove event lines starting with UID for Google Calendar compatibility
-var newEvents = cal.events().map((eventLines) =>
+var updatedEvents = cal.events().map((eventLines) =>
   eventLines
     .split(EVENT_LINE_SEPARATOR)
     .filter((eventLine) => !eventLine.startsWith('UID'))
     .join(EVENT_LINE_SEPARATOR)
 )
 cal.events().splice(0, cal.events().length)
-cal.events().splice(0, 0, ...newEvents)
+cal.events().splice(0, 0, ...updatedEvents)
 
 cal.download('Course Calendar')
 /* End: Calendarize */
