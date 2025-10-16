@@ -173,6 +173,7 @@ var updatedEvents = cal.events().map((eventLines) =>
     .filter((eventLine) => !eventLine.startsWith('UID'))
     .join(EVENT_LINE_SEPARATOR)
 )
+// Replace old events array with updated events, in-place
 cal.events().splice(0, cal.events().length)
 cal.events().splice(0, 0, ...updatedEvents)
 
