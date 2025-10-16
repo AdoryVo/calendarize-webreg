@@ -19,7 +19,7 @@ jobs:
       - name: Auto Minify
         uses: nizarmah/auto-minify@v3
         with:
-          maxdepth: 0 # Only minify the root directory (where calendarize.js is)
+          maxdepth: 1 # Only minify the root directory (where calendarize.js is)
 
       - name: Copy script to extension
         run: cp calendarize.min.js chrome-extension/calendarize.min.js
