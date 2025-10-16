@@ -11,12 +11,14 @@ jobs:
   Zip-Chrome-Extension:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Zip Chrome Extension
         run: (cd chrome-extension && zip -FSr ../calendarize-webreg-chrome.zip *)
 
       - name: Committing zip file
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'GitHub Action: Zip & add calendarize-webreg-chrome.zip'
